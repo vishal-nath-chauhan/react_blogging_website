@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_blogging_website/static/css/main.97c5cf5c.chunk.css",
+    "main.js": "/react_blogging_website/static/js/main.cd8d45c2.chunk.js",
+    "main.js.map": "/react_blogging_website/static/js/main.cd8d45c2.chunk.js.map",
+    "runtime-main.js": "/react_blogging_website/static/js/runtime-main.fc489c06.js",
+    "runtime-main.js.map": "/react_blogging_website/static/js/runtime-main.fc489c06.js.map",
+    "static/js/2.6e7cbae0.chunk.js": "/react_blogging_website/static/js/2.6e7cbae0.chunk.js",
+    "static/js/2.6e7cbae0.chunk.js.map": "/react_blogging_website/static/js/2.6e7cbae0.chunk.js.map",
+    "static/js/3.b73d8be0.chunk.js": "/react_blogging_website/static/js/3.b73d8be0.chunk.js",
+    "static/js/3.b73d8be0.chunk.js.map": "/react_blogging_website/static/js/3.b73d8be0.chunk.js.map",
+    "index.html": "/react_blogging_website/index.html",
+    "static/css/main.97c5cf5c.chunk.css.map": "/react_blogging_website/static/css/main.97c5cf5c.chunk.css.map",
+    "static/js/2.6e7cbae0.chunk.js.LICENSE.txt": "/react_blogging_website/static/js/2.6e7cbae0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc489c06.js",
+    "static/js/2.6e7cbae0.chunk.js",
+    "static/css/main.97c5cf5c.chunk.css",
+    "static/js/main.cd8d45c2.chunk.js"
+  ]
+}
