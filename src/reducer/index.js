@@ -26,7 +26,7 @@ export const blogReducer = (state, action) => {
 
 		case "UPDATE_BLOG":
 			let data = action.payload.data;
-			const Data = state.list.forEach((element, idx) => {
+			state.list.forEach((element, idx) => {
 				if (element.id === data.id) {
 					state.list.splice(idx, 1, {
 						id: data.id,
