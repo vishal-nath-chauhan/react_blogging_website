@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./components/Home";
+import { useReducer } from "react";
+import { Context, initialData } from "./reducer/index";
+import {blogReducer} from './reducer/index'
 
 function App() {
+  const [state, dispatch] = useReducer(blogReducer, initialData);
+  console.log("State ", state);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Context.Provider value={{ state, dispatch }}>
+      <div className="App">
+        <Home />
+      </div>
+    </Context.Provider>
   );
 }
 
