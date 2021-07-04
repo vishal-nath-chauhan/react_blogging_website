@@ -10,5 +10,6 @@
 * Clone the project
 * Open the terminal ,write "npm i " to install dependencies
 * Run command npm start to start the project
-*
+
 ### Glimpse of Project
+![](https://github.com/vishal-nath-chauhan/react_blogging_website/blob/master/Screenshot_2021-07-04%20React%20App.png)
